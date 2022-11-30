@@ -1,0 +1,40 @@
+
+#project2{
+    width:100%;
+    min-height: 90vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4,minmax(200px,1fr));
+    grid-template-rows: 1fr 1fr;
+    grid-gap:2px;
+
+}
+
+.gallery2{
+    position: relative;
+    background: #fffafa; 
+    display: inline-block;
+    padding:1px 1px;
+    margin-bottom: 20px;
+  
+
+}
+
+
+
+#project2 .gallery2 img:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+#project2 .gallery2 img{
+    margin-bottom: 59px;
+    width: 100%;
+    height:100%;
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    border-radius: 33px;
+
+}
